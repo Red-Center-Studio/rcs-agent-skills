@@ -1,0 +1,47 @@
+# robots.txt with an explicit rule for each AI crawler.
+# Replace {{DOMAIN}} and delete any private paths you do not have. Lines starting with # are comments.
+#
+# Two kinds of AI crawler:
+#   1. Search and answer crawlers fetch a page when a person asks about it. Blocking them removes the site
+#      from AI answers. Keep these on Allow unless you have a reason not to.
+#   2. Training crawlers collect text to train models. Allowing or blocking them is a business choice.
+#      It does not change whether the search crawlers above can cite the site.
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# 1. Search and answer crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# 2. Training crawlers: change Allow to Disallow for any you want to opt out of.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://{{DOMAIN}}/sitemap.xml

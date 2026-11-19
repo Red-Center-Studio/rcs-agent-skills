@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{PRODUCT_NAME}}",
+  "url": "{{https://your-domain/product/}}",
+  "description": "{{ONE_OR_TWO_SENTENCES_THAT_ALSO_APPEAR_ON_THE_PAGE}}",
+  "applicationCategory": "{{BusinessApplication, DeveloperApplication or another schema.org category}}",
+  "operatingSystem": "{{Web, or the systems it runs on}}",
+  "softwareVersion": "{{1.0.0, or delete this line}}",
+  "offers": {
+    "@type": "Offer",
+    "price": "{{29.00, digits only. Use 0 for a free product}}",
+    "priceCurrency": "{{USD}}",
+    "url": "{{https://your-domain/product/}}",
+    "availability": "https://schema.org/InStock"
+  },
+  "publisher": { "@id": "{{https://your-domain/}}#organization" }
+}

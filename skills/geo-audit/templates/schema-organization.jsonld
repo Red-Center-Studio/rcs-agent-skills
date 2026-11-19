@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{https://your-domain/}}#organization",
+  "name": "{{LEGAL_OR_TRADING_NAME}}",
+  "url": "{{https://your-domain/}}",
+  "logo": "{{https://your-domain/logo.png}}",
+  "description": "{{ONE_SENTENCE_THAT_ALSO_APPEARS_ON_THE_SITE}}",
+  "email": "{{CONTACT_EMAIL, or delete this line}}",
+  "sameAs": [
+    "{{https://www.linkedin.com/company/your-page, or delete this array}}"
+  ]
+}

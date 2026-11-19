@@ -1,0 +1,18 @@
+{
+  "name": "red-center-studio-skills",
+  "description": "Agent Skills from Red Center Studio. Free, MIT licensed.",
+  "owner": {
+    "name": "Red Center Studio",
+    "email": "hello@redcenterstudio.com",
+    "url": "https://redcenterstudio.com"
+  },
+  "plugins": [
+    {
+      "name": "geo-skill-kit",
+      "source": "./",
+      "description": "Audits a website for AI search readiness, fixes what fails, and proves the result with a zero-dependency check script.",
+      "category": "web",
+      "tags": ["geo", "ai-search", "llms-txt", "structured-data", "robots-txt"]
+    }
+  ]
+}

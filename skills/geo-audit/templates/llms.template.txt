@@ -1,0 +1,18 @@
+# {{SITE_NAME}}
+
+> {{ONE_OR_TWO_SENTENCES: what the site offers, who it is for, and where it operates. Facts only.}}
+
+{{OPTIONAL: a short paragraph of details an assistant needs to answer questions correctly, such as prices, service area, opening hours or how to get support. Delete this block if there is nothing to add.}}
+
+## {{SECTION_NAME, for example Products}}
+
+- [{{PAGE_NAME}}]({{https://your-domain/page/}}): {{what the page covers, in one line}}
+- [{{PAGE_NAME}}]({{https://your-domain/page/}}): {{what the page covers, in one line}}
+
+## {{SECTION_NAME, for example Docs}}
+
+- [{{PAGE_NAME}}]({{https://your-domain/page/}}): {{what the page covers, in one line}}
+
+## Optional
+
+- [{{PAGE_NAME}}]({{https://your-domain/page/}}): {{pages an assistant can skip when short on space}}

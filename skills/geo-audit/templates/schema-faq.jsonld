@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "{{QUESTION_EXACTLY_AS_SHOWN_ON_THE_PAGE}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ANSWER_AS_SHOWN_ON_THE_PAGE}}"
+      }
+    }
+  ]
+}

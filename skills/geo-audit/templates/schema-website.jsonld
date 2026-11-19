@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{https://your-domain/}}#website",
+  "url": "{{https://your-domain/}}",
+  "name": "{{SITE_NAME}}",
+  "inLanguage": "{{en}}",
+  "publisher": { "@id": "{{https://your-domain/}}#organization" }
+}

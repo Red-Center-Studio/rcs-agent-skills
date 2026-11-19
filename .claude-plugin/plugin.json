@@ -1,0 +1,15 @@
+{
+  "name": "geo-skill-kit",
+  "displayName": "GEO Skill Kit",
+  "version": "1.0.0",
+  "description": "Audits a website for AI search readiness, fixes robots.txt rules, structured data, canonical and Open Graph tags and llms.txt, then proves the result with a zero-dependency check script.",
+  "author": {
+    "name": "Red Center Studio",
+    "email": "hello@redcenterstudio.com",
+    "url": "https://redcenterstudio.com"
+  },
+  "homepage": "https://redcenterstudio.com/geo-audit/",
+  "repository": "https://github.com/Red-Center-Studio/rcs-agent-skills",
+  "license": "MIT",
+  "keywords": ["geo", "ai-search", "llms-txt", "structured-data", "robots-txt", "seo", "agent-skill"]
+}
