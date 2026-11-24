@@ -71,8 +71,9 @@ It does not measure whether AI assistants cite you. It checks the technical basi
 
 - Free online audit, no install: https://redcenterstudio.com/geo-audit/
 - More skill kits (MCP servers, Stripe on Workers, Workers launch checks): https://redcenterstudio.com/products/skill-kits/
+- App Mover (Bubble® to Cloudflare Workers, D1, and R2): https://redcenterstudio.com/app-mover/ and https://redcenterstudio.com/app-mover/?tab=data#run
 - Done for you: https://redcenterstudio.com/services/geo-foundation/
-- Contact: hello@redcenterstudio.com
+- Security and support contact: hello@redcenterstudio.com
 
 ## Keeping this repository in sync
 
